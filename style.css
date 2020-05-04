@@ -9,4 +9,25 @@
 body{
   font-family: 'Karla', sans-serif;
   font-size: 1rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* ---Top Container E5EFF5--- */
+.header-info{
+  padding: 50px 0;
+}
+
+h1{
+  color: #33FFFF;
+}
+
+.header-info h3{
+  color: #99CC00;
+  margin: 20px 0 15px 0;
+}
+
+.header-info p{
+  line-height: 24px;
+  color: #98A6BD;
 }
