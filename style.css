@@ -10,16 +10,18 @@ body{
   font-family: 'Karla', sans-serif;
   font-size: 1rem;
   margin: 0 auto;
-  width: 90%;
+  /*width: 100%;*/
+  width: 1440px;
+  padding: 0 5%;
 }
 
-/* ---Top Container E5EFF5--- */
+/* ---Top Container--- */
 .header-info{
-  padding: 50px 0;
+  padding: 50px 50px;
 }
 
 h1{
-  color: #33FFFF;
+  color: #239593;
 }
 
 .header-info h3{
@@ -28,6 +30,40 @@ h1{
 }
 
 .header-info p{
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #98A6BD;
+}
+
+/* ---Bottom Container E5EFF5--- */
+.bottom-wrapper{
+  display: flex;
+  flex-direction: row;
+  color: #E5EFF5;
+}
+
+.flex-col{
+  width: 50%;
+  background-color: #239593;
+  padding: 50px 50px;
+}
+
+.flex-col:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-col h3{
+  padding-bottom: 10px;
+}
+
+.info-price p{
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.price-month{
+  font-weight: 700;
+  font-size: 1.875rem;
+  padding-right: 0.5rem;
 }
