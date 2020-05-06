@@ -58,6 +58,10 @@ h1{
   justify-content: space-between;
 }
 
+.flex-col:hover{
+  background-color: #26a29f;
+}
+
 .info-price p{
   line-height: 1.75rem;
   font-weight: 400;
@@ -77,12 +81,16 @@ h1{
 .button-subscription{
   background-color: #d6d352;
   height: 2.25rem;
-  width: auto;
+  width: 70%;
   font-size: 1rem;
   font-weight: 400;
   color: #ffffff;
   border-radius: 0.30rem;
   box-shadow: 0 17px 8px -12px rgba(0, 0, 0, 0.2);
+}
+
+.button-subscription:hover{
+  background-color: #cecb32;
 }
   /* ---Price Container--- */
   /* ---Why US Container--- */
@@ -105,7 +113,7 @@ h1{
 
 /* ---Footer--- */
 footer{
-  background-color: #e5eff5;
+  background-color: #f3f8fa;
   padding: 10px 30px 5px 30px;
   display: flex;
   justify-content: flex-end;
@@ -124,4 +132,25 @@ footer{
 
 .attribution a:hover{
   color: #2AB2AF;
+}
+
+/* ---Responsive Design--- */
+@media (max-width: 600px){
+  .bottom-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .flex-col{
+    width: auto;
+  }
+
+  .flex-col:nth-child(1){
+    height: 200px;
+  }
+
+  .button-subscription{
+    width: auto;
+  }
 }
