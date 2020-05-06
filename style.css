@@ -10,18 +10,18 @@ body{
   font-family: 'Karla', sans-serif;
   font-size: 1rem;
   margin: 0 auto;
-  /*width: 100%;*/
-  width: 1440px;
+  width: 90%;
+  /*width: 1440px;*/
   padding: 0 5%;
 }
 
 /* ---Top Container--- */
 .header-info{
-  padding: 50px 50px;
+  padding: 50px 30px;
 }
 
 h1{
-  color: #239593;
+  color: #2AB2AF;
 }
 
 .header-info h3{
@@ -34,7 +34,7 @@ h1{
   color: #98A6BD;
 }
 
-/* ---Bottom Container E5EFF5--- */
+/* ---Bottom Container--- */
 .bottom-wrapper{
   display: flex;
   flex-direction: row;
@@ -43,8 +43,8 @@ h1{
 
 .flex-col{
   width: 50%;
-  background-color: #239593;
-  padding: 50px 50px;
+  background-color: #2AB2AF;
+  padding: 50px 30px;
 }
 
 .flex-col:nth-child(1){
@@ -62,8 +62,24 @@ h1{
   font-weight: 400;
 }
 
+.info-price p:nth-child(1){
+  color: #bbd5e5;
+}
+
 .price-month{
   font-weight: 700;
   font-size: 1.875rem;
   padding-right: 0.5rem;
+  color: #E5EFF5;
+}
+
+.button-subscription{
+  background-color: #d6d352;
+  height: 2.25rem;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 0.30rem;
+  box-shadow: 0 17px 8px -12px rgba(0, 0, 0, 0.2);
 }
