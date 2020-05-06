@@ -100,6 +100,28 @@ h1{
 .why-us-list li a:hover{
   color: #E5EFF5;
 }
-
   /* ---Why US Container--- */
 /* ---Bottom Container--- */
+
+/* ---Footer--- */
+footer{
+  background-color: #e5eff5;
+  padding: 10px 30px 5px 30px;
+  display: flex;
+  justify-content: flex-end;
+  color: #98A6BD;
+}
+
+.attribution{
+  font-style: 0.5rem;
+}
+
+.attribution a{
+  font-style: 0.625rem;
+  text-decoration: none;
+  color: #687d9e;
+}
+
+.attribution a:hover{
+  color: #2AB2AF;
+}
